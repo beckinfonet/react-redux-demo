@@ -7,6 +7,7 @@ export default store; //The store is used in index.js by the react-redux top lev
 
 
 //STORE WITH MIDDLEWARE
+/------ below code has been uncommented for demo only, comment before using it ------/
 
 import { createStore } from 'redux'; //Notice redux, not react-redux
 import reducer from './reducer';
